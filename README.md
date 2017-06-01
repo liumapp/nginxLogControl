@@ -2,7 +2,7 @@
 
 > Control your nginx error log and access log limited in 7 days or any day you like.
 
-[homePage](http://www.liumapp.com)
+[document](http://www.liumapp.com/articles/2017/06/01/1496286037699.html)
 
 ## how to use 
 
