@@ -21,3 +21,5 @@
 
 * of course you need change the path , while your nginx log folder located in different location.
 
+* nginx -s reload (reload your nginx at the beginning)
+
