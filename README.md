@@ -23,3 +23,8 @@
 
 * nginx -s reload (reload your nginx at the beginning)
 
+## QA
+
+### 为什么最后重启nginx？
+
+nginx在运行状态下，access.log和error.log两个文件的资源句柄并没有被释放，此时脚本是无法做到彻底删除这两个文件的，只有通过nginx重启，手动的释放资源句柄后才可。
